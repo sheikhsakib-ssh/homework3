@@ -1,0 +1,72 @@
+h2{
+    color: rgb(247, 156, 19);
+    text-align: center;
+}
+
+.bgcss{
+    background-color: bisque;
+}
+
+.cssbmp{
+
+    color: rgb(10, 137, 255);
+    background-color: aqua;
+    width: 300px;
+    font-size: 20px;
+   border-color: red green blue darkcyan;
+    border-style: solid ;
+    margin: 0px 0px 0px 200px;
+    padding: 10px;
+}
+
+.csscon{
+    border-style: solid;
+    width: 120px;
+margin-left: 10px;
+background-color: rgb(160,198,232);
+}
+
+.cssbm{
+    border-style: dotted;
+    width: 150px;
+    padding: 15px;
+    margin-left: 10px;
+    text-align: center;
+    background-color: rgb(196,223,184);
+}
+.border{
+    text-align: center;
+    border-style: solid;
+    width: 200px;
+    padding: 20px;
+   background-color: rgb(255,238,188);
+    margin-left: 10px;
+}
+
+.margin{
+    text-align: center;
+    border-style: dashed;
+    width: 265px;
+    padding: 20px;
+   background-color: rgb(249,204,157);
+    margin-left: 300px;
+}
+
+.circle{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    margin-left: 240px;
+    margin-top: 150px;
+    border-radius: 50%;
+    float: left;
+
+}
+
+.flag{
+    width: 500px;
+    height: 300px;
+    margin-left: 100px;
+    margin-top: 85px;
+    background-color: green;
+}

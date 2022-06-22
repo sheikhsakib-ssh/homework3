@@ -1,0 +1,159 @@
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+
+
+/* navigation bar started */
+
+.logo img{
+    width: 190px;
+    height: 42px;
+    margin-top: 5px;
+}
+
+.navigation{
+    
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-color: antiquewhite;
+    
+}
+
+.navigation>ul{
+    display: flex;
+    margin-right: 5px;
+   
+    padding: 10px 10px;
+
+}
+
+
+.navigation>ul>li{ 
+    list-style: none;
+    margin: 0px px;
+    margin-left: -8px;
+}
+
+.navigation>ul>li>a{
+    text-decoration: none;
+    color:rgb(111,98,183);
+    font-size: 15px;
+    border-right: px solid palegreen;
+    padding: 15px 20px;
+    transition: 0.8s;
+
+}
+
+
+h2{
+    color: rgb(7, 44, 211);
+    margin-left: 30px;
+   
+}
+
+.navigation>ul>li:hover>.dropdown{
+    opacity: 1;
+    visibility: visible;
+    transform: scaleY(1);
+}
+
+
+/* main area started */
+
+.main-area{
+    text-align: left;
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-size: cver;
+    background-position: center;
+    background-image: url(../images/background.png);}
+    
+    
+
+.info{
+    margin-top: 4%;
+    margin-left: 3%;
+    text-align: center;
+}
+ 
+.info h1{
+    font-size: 35px;
+    color: rgb(12, 37, 85);
+}
+
+.info h2{
+    font-size: 25px;
+    letter-spacing: 1px;
+    line-height: 24px;
+    color: rgb(0, 138, 255);
+}
+ hr{
+    color: rgb(226, 225, 224);
+    border: 1px solid;
+ }
+
+span{
+    color: rgb(241, 90, 107);
+    font-size: 30px;
+    font-weight: bold;
+}
+
+ .project{
+    width: 200px;
+    margin-left: 300px;
+    margin-top: 300px;
+    text-align: right;
+ }
+
+ .amount{
+    color: rgb(58, 78, 117);
+    font-size: 30px;
+    font-weight: bold;
+ }
+
+ .div2{
+    width: 250px;
+    margin-right: 300px;
+    margin-top: 300px;
+    text-align: left;
+ }
+
+
+ .creativity{
+    display: flex;
+ justify-content: space-between;
+ }
+ .creativity1{
+    margin-left: 150px;
+ }
+ .creativity3{
+    margin-right: 150px;
+ }
+
+ .footer{
+    background-color: rgb(0, 138, 255);
+    height: 40px;
+    text-align: center;
+    margin-top: 10px;
+
+ }
+
+button{
+    color: rgb(241, 245, 248);
+    width: 80px;
+    margin-left: 40px;
+    text-decoration: none;
+}
+
+
+ button>a:hover{
+    
+    background-color: black;
+    color: rgb(243, 146, 0);
+}
+
